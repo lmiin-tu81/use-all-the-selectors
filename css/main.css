@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: #fdf6e3;
 }
@@ -33,7 +41,6 @@ nav ul {
 * a:not(.no-highlight) {
   background-color: #719e07;
 }
-
 
 [rel="external"] {
   background-color: #2694d8;
