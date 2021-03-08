@@ -30,11 +30,12 @@ nav ul {
   color: #fff;
 }
 
-* a {
+* a:not(.no-highlight) {
   background-color: #719e07;
 }
 
-[rel=external] {
+
+[rel="external"] {
   background-color: #2694d8;
 }
 
